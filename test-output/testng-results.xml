@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-20T22:20:23 WIB" name="TestNG Practice" finished-at="2024-07-20T22:20:24 WIB" duration-ms="597">
+    <groups>
+      <group name="group1">
+        <method signature="Test3.ApiMenu()[pri:0, instance:Testing.Test3@5149d738]" name="ApiMenu" class="Testing.Test3"/>
+        <method signature="Test4.LogOutUser()[pri:0, instance:Testing.Test4@6bbe85a8]" name="LogOutUser" class="Testing.Test4"/>
+        <method signature="Test1.runTest1()[pri:0, instance:Testing.Test1@202b0582]" name="runTest1" class="Testing.Test1"/>
+        <method signature="Test3.ApiMenu()[pri:0, instance:Testing.Test3@1033576a]" name="ApiMenu" class="Testing.Test3"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test started-at="2024-07-20T22:20:23 WIB" name="Login Test" finished-at="2024-07-20T22:20:24 WIB" duration-ms="597">
+      <class name="Testing.Test2">
+        <test-method signature="LoginAdmin()[pri:0, instance:Testing.Test2@53045c6c]" started-at="2024-07-20T22:20:24 WIB" name="LoginAdmin" finished-at="2024-07-20T22:20:24 WIB" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAdmin -->
+        <test-method signature="LoginUser()[pri:0, instance:Testing.Test2@53045c6c]" started-at="2024-07-20T22:20:24 WIB" name="LoginUser" finished-at="2024-07-20T22:20:24 WIB" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method signature="LoginUser2()[pri:0, instance:Testing.Test2@53045c6c]" started-at="2024-07-20T22:20:24 WIB" name="LoginUser2" finished-at="2024-07-20T22:20:24 WIB" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser2 -->
+        <test-method signature="LoginClerk()[pri:0, instance:Testing.Test2@53045c6c]" started-at="2024-07-20T22:20:24 WIB" name="LoginClerk" finished-at="2024-07-20T22:20:24 WIB" depends-on-methods="Testing.Test2.LoginUser" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginClerk -->
+      </class> <!-- Testing.Test2 -->
+      <class name="Testing.Test3">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="BeforeClass" finished-at="2024-07-20T22:20:24 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:24 WIB" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ApiMenu()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="ApiMenu" finished-at="2024-07-20T22:20:24 WIB" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiMenu -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:24 WIB" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="appMenu()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="appMenu" finished-at="2024-07-20T22:20:24 WIB" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appMenu -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:24 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="webMenu()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="webMenu" finished-at="2024-07-20T22:20:24 WIB" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webMenu -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Testing.Test3@5149d738]" started-at="2024-07-20T22:20:24 WIB" name="AfterClass" finished-at="2024-07-20T22:20:24 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Testing.Test3 -->
+      <class name="Testing.Test1">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:Testing.Test1@202b0582]" started-at="2024-07-20T22:20:23 WIB" name="prerequiste" finished-at="2024-07-20T22:20:23 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="runTest1()[pri:0, instance:Testing.Test1@202b0582]" started-at="2024-07-20T22:20:23 WIB" name="runTest1" finished-at="2024-07-20T22:20:23 WIB" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest1 -->
+        <test-method signature="runTest2()[pri:0, instance:Testing.Test1@202b0582]" started-at="2024-07-20T22:20:23 WIB" name="runTest2" finished-at="2024-07-20T22:20:24 WIB" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest2 -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:Testing.Test1@202b0582]" started-at="2024-07-20T22:20:24 WIB" name="lastExecution" finished-at="2024-07-20T22:20:24 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- Testing.Test1 -->
+      <class name="Testing.Test4">
+        <test-method signature="ChooseProile(java.lang.String,java.lang.String)[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="ChooseProile" data-provider="getData" finished-at="2024-07-20T22:20:24 WIB" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseProile -->
+        <test-method signature="ChooseProile(java.lang.String,java.lang.String)[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="ChooseProile" data-provider="getData" finished-at="2024-07-20T22:20:24 WIB" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondUname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseProile -->
+        <test-method signature="ChooseProile(java.lang.String,java.lang.String)[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="ChooseProile" data-provider="getData" finished-at="2024-07-20T22:20:24 WIB" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ThirdUname]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ThirdPass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseProile -->
+        <test-method signature="LogOutAdmin(java.lang.String)[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="LogOutAdmin" finished-at="2024-07-20T22:20:24 WIB" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutAdmin -->
+        <test-method signature="LogOutSuperAdmin()[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="LogOutSuperAdmin" finished-at="2024-07-20T22:20:24 WIB" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutSuperAdmin -->
+        <test-method signature="LogOutUser()[pri:0, instance:Testing.Test4@6bbe85a8]" started-at="2024-07-20T22:20:24 WIB" name="LogOutUser" finished-at="2024-07-20T22:20:24 WIB" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutUser -->
+      </class> <!-- Testing.Test4 -->
+    </test> <!-- Login Test -->
+    <test started-at="2024-07-20T22:20:23 WIB" name="Parameters 2" finished-at="2024-07-20T22:20:24 WIB" duration-ms="278">
+      <class name="Testing.Test2">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Testing.Test2@53045c6c]" started-at="2024-07-20T22:20:23 WIB" name="BeforeSuite" finished-at="2024-07-20T22:20:23 WIB" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+      </class> <!-- Testing.Test2 -->
+      <class name="Testing.Test3">
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:23 WIB" name="BeforeClass" finished-at="2024-07-20T22:20:23 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:23 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:23 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ApiMenu()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:23 WIB" name="ApiMenu" finished-at="2024-07-20T22:20:23 WIB" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiMenu -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:23 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:23 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="appMenu()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:24 WIB" name="appMenu" finished-at="2024-07-20T22:20:24 WIB" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appMenu -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:24 WIB" name="BeforeMethod" finished-at="2024-07-20T22:20:24 WIB" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="webMenu()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:24 WIB" name="webMenu" finished-at="2024-07-20T22:20:24 WIB" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webMenu -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:24 WIB" name="AfterClass" finished-at="2024-07-20T22:20:24 WIB" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterSuite(java.lang.String,java.lang.String)[pri:0, instance:Testing.Test3@1033576a]" started-at="2024-07-20T22:20:24 WIB" name="AfterSuite" finished-at="2024-07-20T22:20:24 WIB" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bala bala halooo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wasapppp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- Testing.Test3 -->
+    </test> <!-- Parameters 2 -->
+  </suite> <!-- TestNG Practice -->
+</testng-results>

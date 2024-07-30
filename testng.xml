@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Practice">
+
+	<test thread-count="5" name="Login Test">
+		<classes>
+			<class name="Testing.Test2" />
+			<class name="Testing.Test4">
+				<!-- To exclude test method in class based on method name start with LogOut -->
+				<methods>
+					<exclude name="LogOut.*" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="General Test">
+		<classes>
+			<class name="Testing.Test1">
+				<!-- To include test method in class(only choosed test want to run) -->
+				<methods>
+					<include name="runTest2" />
+				</methods>
+			</class>
+
+			<class name="Testing.Test3">
+				<!-- To exclude test method in class -->
+				<methods>
+					<exclude name="webMenu" />
+				</methods>
+			</class>
+
+		</classes>
+	</test>
+</suite> <!-- Suite -->
