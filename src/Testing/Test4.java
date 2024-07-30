@@ -25,6 +25,11 @@ public class Test4 {
 		System.out.println("Log out super admin");
 	}
 	
+	@Test
+	public void LogOutSuperAdmin2() {
+		System.out.println("Log out super admin");
+	}
+	
 	@Test(dataProvider = "getData")
 	public void ChooseProile(String username, String password) {
 		System.out.println("Choose profile");

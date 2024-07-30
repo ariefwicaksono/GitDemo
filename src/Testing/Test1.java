@@ -23,6 +23,18 @@ public class Test1 {
 		System.out.println("runtest7");
 	}
 	
+	@Test
+	public void runTest3() {
+		System.out.println("runtest2");
+		System.out.println("runtest3");
+		System.out.println("runtest4");
+		
+		//changes
+		System.out.println("runtest5");
+		System.out.println("runtest6");
+		System.out.println("runtest7");
+	}
+	
 	@BeforeTest
 	public void prerequiste() {
 		System.out.println("Test will execute first");
