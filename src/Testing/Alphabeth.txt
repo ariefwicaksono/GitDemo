@@ -6,3 +6,10 @@ Numbers
 5
 6
 7
+
+Alphabeth 
+a
+b
+c
+d
+e
