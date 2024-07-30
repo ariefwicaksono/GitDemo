@@ -24,6 +24,11 @@ public class Test3 {
 		System.out.println("APP Menu");
 	}
 	
+	@Test
+	public void appMenu3() {
+		System.out.println("APP Menu");
+	}
+	
 	@Test(groups = {"group1"})
 	public void ApiMenu() {
 		System.out.println("Api Menu");
