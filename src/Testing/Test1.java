@@ -14,6 +14,8 @@ public class Test1 {
 	@Test
 	public void runTest2() {
 		System.out.println("runtest2");
+		System.out.println("runtest3");
+		System.out.println("runtest4");
 	}
 	
 	@BeforeTest
