@@ -24,6 +24,8 @@ public class Test2 {
 	@BeforeSuite
 	public void BeforeSuite() {
 		System.out.println("I am the number one (before suite) ");
+		//changes
+		System.out.println("I am the number one (before suite) yesss ");
 	}
 	
 	//It will executed LoginUser first and then LoginClerk
